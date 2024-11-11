@@ -1,0 +1,251 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    color: #eee;
+}
+
+/* Home Section Styles */
+.home {
+    text-align: center;
+    padding: 50px 20px;
+    background: #eaeaea;
+}
+
+.home h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-img {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Offers Section */
+.offers {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.offers h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.offer-item {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.offer-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.offer-item p {
+    color: #555;
+}
+
+/* Pricing Section with Hover Effects */
+.pricing {
+    padding: 50px 20px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-plan {
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.pricing-plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-plan h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pricing-plan ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.pricing-plan .price {
+    font-size: 2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.pricing-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pricing-btn:hover {
+    background-color: #555;
+}
+
+/* Team Section */
+.team {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.team-member p {
+    color: #555;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer with Social Media Icons */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+.footer .social-icons img:hover {
+    transform: scale(1.2);
+}
