@@ -1,0 +1,69 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navbar and Section Styles (unchanged) */
+
+/* Pricing Section with Hover Effects */
+.pricing-plan {
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease;
+}
+
+.pricing-plan:hover {
+    width: 220px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pricing-btn:hover {
+    background-color: #555;
+}
+
+/* Footer with Social Media Icons */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin: 0 5px;
+    font-size: 1.2em;
+}
+
+.footer .social-icons a:hover {
+    color: #aaa;
+}
+#imgg{
+    width: 30px;
+    height: auto;
+}
